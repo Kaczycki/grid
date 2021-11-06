@@ -1,0 +1,13 @@
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+background-color:cornsilk;
+}
+
+.item1 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(49, 75, 7);
+}
