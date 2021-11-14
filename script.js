@@ -1,10 +1,14 @@
 let myDiv = document.getElementById('pierwszyDiv');
 let guz = document.getElementById('guzik1');
-let kolor = document.getElementById('wybor')
+let kolor;
 
 function zmienKolor(){
-    myDiv.style.color=kolor;
+  kolor = document.getElementById('wybor').value;
+  myDiv.style.color=kolor;
+  console.log('pierwszyDiv = ', myDiv , ' guzik1 = ', guz, ' wybor = ', kolor );
 }
+
+
 
 console.log('pierwszyDiv = ', myDiv , ' guzik1 = ', guz, ' wybor = ',kolor );
 
